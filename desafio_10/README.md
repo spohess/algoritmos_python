@@ -23,3 +23,14 @@ def merge_intervals(intervals: list[list[int]]) -> list[list[int]]
 - Todos os intervalos sobrepostos
 - Intervalos adjacentes (e.g., `[1,2]` e `[2,3]`)
 - Intervalos não ordenados na entrada
+
+## Exemplos
+
+1. **Entrada:** `intervals = [[1, 3], [2, 6], [8, 10], [15, 18]]`
+   **Saída esperada:** `[[1, 6], [8, 10], [15, 18]]`
+
+2. **Entrada:** `intervals = [[1, 4], [4, 5]]`
+   **Saída esperada:** `[[1, 5]]`
+
+3. **Entrada:** `intervals = [[1, 2], [3, 4]]`
+   **Saída esperada:** `[[1, 2], [3, 4]]`

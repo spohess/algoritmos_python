@@ -23,3 +23,14 @@ def longest_continuous_increasing(nums: list[int]) -> int
 - Array totalmente decrescente
 - Elementos iguais consecutivos
 - Sequência crescente no final do array
+
+## Exemplos
+
+1. **Entrada:** `nums = [1, 3, 5, 4, 7]`
+   **Saída esperada:** `3`
+
+2. **Entrada:** `nums = [5, 4, 3, 2, 1]`
+   **Saída esperada:** `1`
+
+3. **Entrada:** `nums = []`
+   **Saída esperada:** `0`

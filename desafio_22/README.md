@@ -22,3 +22,14 @@ def kth_smallest(nums: list[int], k: int) -> int
 - Array com duplicados
 - Array já ordenado
 - Array em ordem decrescente
+
+## Exemplos
+
+1. **Entrada:** `nums = [3, 2, 1, 5, 6, 4], k = 2`
+   **Saída esperada:** `2`
+
+2. **Entrada:** `nums = [7, 10, 4, 3, 20, 15], k = 3`
+   **Saída esperada:** `7`
+
+3. **Entrada:** `nums = [1], k = 1`
+   **Saída esperada:** `1`

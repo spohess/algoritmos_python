@@ -22,3 +22,14 @@ def longest_common_prefix(strs: list[str]) -> str
 - Strings sem nenhum prefixo em comum
 - Todas as strings idênticas
 - Uma string vazia na lista
+
+## Exemplos
+
+1. **Entrada:** `strs = ["flower", "flow", "flight"]`
+   **Saída esperada:** `"fl"`
+
+2. **Entrada:** `strs = ["dog", "car", "race"]`
+   **Saída esperada:** `""`
+
+3. **Entrada:** `strs = ["abc", "abc", "abc"]`
+   **Saída esperada:** `"abc"`

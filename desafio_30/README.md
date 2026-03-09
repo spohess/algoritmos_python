@@ -22,3 +22,14 @@ def edit_distance(word1: str, word2: str) -> int
 - Uma string é prefixo da outra
 - Strings completamente diferentes
 - Strings de um único caractere
+
+## Exemplos
+
+1. **Entrada:** `word1 = "horse", word2 = "ros"`
+   **Saída esperada:** `3`
+
+2. **Entrada:** `word1 = "intention", word2 = "execution"`
+   **Saída esperada:** `5`
+
+3. **Entrada:** `word1 = "abc", word2 = "abc"`
+   **Saída esperada:** `0`

@@ -21,3 +21,14 @@ def shortest_path_grid(grid: list[list[int]]) -> int
 - Sem caminho possível
 - Grade sem bloqueios
 - Caminho exige contornar bloqueios
+
+## Exemplos
+
+1. **Entrada:** `grid = [[0,0,0],[1,1,0],[0,0,0]]`
+   **Saída esperada:** `4`
+
+2. **Entrada:** `grid = [[0,1],[1,0]]`
+   **Saída esperada:** `-1`
+
+3. **Entrada:** `grid = [[0]]`
+   **Saída esperada:** `0`

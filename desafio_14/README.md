@@ -21,3 +21,14 @@ def max_sum_window(nums: list[int], k: int) -> int
 - k igual a 1
 - Todos os elementos iguais
 - Elementos negativos
+
+## Exemplos
+
+1. **Entrada:** `nums = [1, 3, -1, 2, 5, 1], k = 3`
+   **Saída esperada:** `8`
+
+2. **Entrada:** `nums = [1, 2, 3], k = 3`
+   **Saída esperada:** `6`
+
+3. **Entrada:** `nums = [-1, -2, -3, -4], k = 2`
+   **Saída esperada:** `-3`

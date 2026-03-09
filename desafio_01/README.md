@@ -23,3 +23,14 @@ def has_pair_with_sum(nums: list[int], target: int) -> bool
 - Elementos negativos
 - Alvo zero com elementos positivos e negativos
 - Elementos duplicados (e.g., `[3, 3]` com alvo `6`)
+
+## Exemplos
+
+1. **Entrada:** `nums = [1, 2, 3, 4], target = 5`
+   **Saída esperada:** `True`
+
+2. **Entrada:** `nums = [1, 2, 3, 4], target = 10`
+   **Saída esperada:** `False`
+
+3. **Entrada:** `nums = [3, 3], target = 6`
+   **Saída esperada:** `True`

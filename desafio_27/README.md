@@ -22,3 +22,14 @@ def dijkstra(n: int, edges: list[list[int]], src: int) -> list[int]
 - Grafo com um único vértice
 - Múltiplos caminhos para o mesmo destino
 - Arestas com peso zero
+
+## Exemplos
+
+1. **Entrada:** `n = 4, edges = [[0,1,4],[0,2,1],[2,1,2],[1,3,1],[2,3,5]], src = 0`
+   **Saída esperada:** `[0, 3, 1, 4]`
+
+2. **Entrada:** `n = 3, edges = [[0,1,1]], src = 0`
+   **Saída esperada:** `[0, 1, -1]`
+
+3. **Entrada:** `n = 3, edges = [], src = 0`
+   **Saída esperada:** `[0, -1, -1]`

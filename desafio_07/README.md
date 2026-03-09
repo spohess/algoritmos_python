@@ -21,3 +21,14 @@ def intersection(nums1: list[int], nums2: list[int]) -> list[int]
 - Nenhum elemento em comum
 - Arrays idênticos
 - Arrays com muitos duplicados
+
+## Exemplos
+
+1. **Entrada:** `nums1 = [1, 2, 2, 1], nums2 = [2, 2]`
+   **Saída esperada:** `[2]`
+
+2. **Entrada:** `nums1 = [4, 9, 5], nums2 = [9, 4, 9, 8, 4]`
+   **Saída esperada:** `[4, 9] (ordem pode variar)`
+
+3. **Entrada:** `nums1 = [1, 3], nums2 = [2, 4]`
+   **Saída esperada:** `[]`

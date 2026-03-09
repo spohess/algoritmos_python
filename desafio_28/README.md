@@ -22,3 +22,14 @@ def coin_change(coins: list[int], amount: int) -> int
 - Uma única moeda
 - Valor igual a uma denominação
 - Denominações não ordenadas
+
+## Exemplos
+
+1. **Entrada:** `coins = [1, 5, 10, 25], amount = 30`
+   **Saída esperada:** `2`
+
+2. **Entrada:** `coins = [2], amount = 3`
+   **Saída esperada:** `-1`
+
+3. **Entrada:** `coins = [1, 2, 3], amount = 0`
+   **Saída esperada:** `0`

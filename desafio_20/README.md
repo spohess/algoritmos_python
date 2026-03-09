@@ -22,3 +22,14 @@ def count_islands(grid: list[list[int]]) -> int
 - Grade toda de terra (uma ilha)
 - Ilhas diagonais (não são conectadas)
 - Grade com uma única célula
+
+## Exemplos
+
+1. **Entrada:** `grid = [[1,1,0,0,0],[1,1,0,0,0],[0,0,1,0,0],[0,0,0,1,1]]`
+   **Saída esperada:** `3`
+
+2. **Entrada:** `grid = [[1,1,1],[0,1,0],[1,1,1]]`
+   **Saída esperada:** `1`
+
+3. **Entrada:** `grid = [[0,0],[0,0]]`
+   **Saída esperada:** `0`

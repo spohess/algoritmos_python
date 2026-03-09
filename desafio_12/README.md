@@ -22,3 +22,14 @@ def two_sum_sorted(nums: list[int], target: int) -> tuple[int, int]
 - Múltiplos pares válidos (retornar qualquer um)
 - Elementos negativos
 - Elementos duplicados
+
+## Exemplos
+
+1. **Entrada:** `nums = [2, 7, 11, 15], target = 9`
+   **Saída esperada:** `(0, 1)`
+
+2. **Entrada:** `nums = [1, 2, 3, 4, 6], target = 10`
+   **Saída esperada:** `(3, 4)`
+
+3. **Entrada:** `nums = [1, 2, 3, 9], target = 20`
+   **Saída esperada:** `(-1, -1)`

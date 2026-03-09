@@ -22,3 +22,14 @@ def is_valid_parentheses(s: str) -> bool
 - Apenas fechamentos
 - Tipos misturados e intercalados
 - Fechamento sem abertura correspondente
+
+## Exemplos
+
+1. **Entrada:** `s = "()[]{}"`
+   **Saída esperada:** `True`
+
+2. **Entrada:** `s = "(]"`
+   **Saída esperada:** `False`
+
+3. **Entrada:** `s = "([{}])"`
+   **Saída esperada:** `True`

@@ -21,3 +21,14 @@ def top_k_frequent(nums: list[int], k: int) -> list[int]
 - Todos os elementos iguais
 - k igual a 1
 - Empate de frequência (retornar quaisquer k com maior frequência)
+
+## Exemplos
+
+1. **Entrada:** `nums = [1,1,1,2,2,3], k = 2`
+   **Saída esperada:** `[1, 2] (ordem pode variar)`
+
+2. **Entrada:** `nums = [1], k = 1`
+   **Saída esperada:** `[1]`
+
+3. **Entrada:** `nums = [4,4,4,5,5,6], k = 1`
+   **Saída esperada:** `[4]`

@@ -22,3 +22,14 @@ def lowest_common_ancestor(root: TreeNode, p: TreeNode, q: TreeNode) -> TreeNode
 - Ambos os nós estão no mesmo lado da árvore
 - Ambos os nós estão em lados opostos
 - Árvore com apenas dois nós
+
+## Exemplos
+
+1. **Entrada:** `root = [3,5,1,6,2,0,8,None,None,7,4], p = 5, q = 1`
+   **Saída esperada:** `3`
+
+2. **Entrada:** `root = [3,5,1,6,2,0,8,None,None,7,4], p = 5, q = 4`
+   **Saída esperada:** `5`
+
+3. **Entrada:** `root = [1,2], p = 1, q = 2`
+   **Saída esperada:** `1`

@@ -22,3 +22,14 @@ def is_palindrome(s: str) -> bool
 - String com um único caractere alfanumérico
 - Palíndromo com números
 - String com espaços e pontuação
+
+## Exemplos
+
+1. **Entrada:** `s = "A man, a plan, a canal: Panama"`
+   **Saída esperada:** `True`
+
+2. **Entrada:** `s = "race a car"`
+   **Saída esperada:** `False`
+
+3. **Entrada:** `s = "!@#$%"`
+   **Saída esperada:** `True`

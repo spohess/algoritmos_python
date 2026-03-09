@@ -22,3 +22,14 @@ def is_anagram(s1: str, s2: str) -> bool
 - Diferenças de caixa
 - Strings de tamanhos diferentes (após remover espaços)
 - Caracteres especiais e números
+
+## Exemplos
+
+1. **Entrada:** `s1 = "listen", s2 = "silent"`
+   **Saída esperada:** `True`
+
+2. **Entrada:** `s1 = "a gentleman", s2 = "elegant man"`
+   **Saída esperada:** `True`
+
+3. **Entrada:** `s1 = "hello", s2 = "world"`
+   **Saída esperada:** `False`

@@ -22,3 +22,14 @@ def simplify_path(path: str) -> str
 - `..` no nível raiz (não pode subir além da raiz)
 - Caminho com `.` e `..` intercalados
 - Nomes de diretório contendo pontos (e.g., `...` é um nome válido)
+
+## Exemplos
+
+1. **Entrada:** `path = "/home/"`
+   **Saída esperada:** `"/home"`
+
+2. **Entrada:** `path = "/a/b/../c"`
+   **Saída esperada:** `"/a/c"`
+
+3. **Entrada:** `path = "/../"`
+   **Saída esperada:** `"/"`

@@ -22,3 +22,14 @@ def find_interval(intervals: list[list[int]], point: int) -> int
 - Ponto depois de todos os intervalos
 - Ponto entre dois intervalos (em nenhum)
 - Ponto exatamente no início ou fim de um intervalo
+
+## Exemplos
+
+1. **Entrada:** `intervals = [[1, 3], [5, 7], [9, 12]], point = 6`
+   **Saída esperada:** `1`
+
+2. **Entrada:** `intervals = [[1, 3], [5, 7], [9, 12]], point = 4`
+   **Saída esperada:** `-1`
+
+3. **Entrada:** `intervals = [[3, 8]], point = 5`
+   **Saída esperada:** `0`

@@ -22,3 +22,14 @@ def topological_sort(n: int, edges: list[list[int]]) -> list[int]
 - Grafo linear (cadeia)
 - Vértice isolado
 - Múltiplas ordenações válidas
+
+## Exemplos
+
+1. **Entrada:** `n = 4, edges = [[0,1],[0,2],[1,3],[2,3]]`
+   **Saída esperada:** `Uma ordem válida, por exemplo [0, 1, 2, 3]`
+
+2. **Entrada:** `n = 3, edges = [[0,1],[1,2]]`
+   **Saída esperada:** `[0, 1, 2]`
+
+3. **Entrada:** `n = 3, edges = [[0,1],[1,2],[2,0]]`
+   **Saída esperada:** `[]`

@@ -22,3 +22,14 @@ def product_except_self(nums: list[int]) -> list[int]
 - Array com dois elementos
 - Elementos negativos
 - Array com todos os elementos iguais a 1
+
+## Exemplos
+
+1. **Entrada:** `nums = [1, 2, 3, 4]`
+   **Saída esperada:** `[24, 12, 8, 6]`
+
+2. **Entrada:** `nums = [1, 2, 0, 4]`
+   **Saída esperada:** `[0, 0, 8, 0]`
+
+3. **Entrada:** `nums = [3, 5]`
+   **Saída esperada:** `[5, 3]`

@@ -22,3 +22,14 @@ def max_subarray_sum(nums: list[int]) -> int
 - Todos os elementos positivos
 - Array com zeros
 - Soma máxima no meio, início ou fim
+
+## Exemplos
+
+1. **Entrada:** `nums = [-2, 1, -3, 4, -1, 2, 1, -5, 4]`
+   **Saída esperada:** `6`
+
+2. **Entrada:** `nums = [-3, -2, -5, -1]`
+   **Saída esperada:** `-1`
+
+3. **Entrada:** `nums = [1, 2, 3, 4]`
+   **Saída esperada:** `10`

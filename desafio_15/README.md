@@ -22,3 +22,14 @@ def min_window_substring(s: str, t: str) -> str
 - s igual a t
 - Caracteres duplicados em t
 - Múltiplas janelas mínimas de mesmo tamanho (retornar qualquer uma)
+
+## Exemplos
+
+1. **Entrada:** `s = "ADOBECODEBANC", t = "ABC"`
+   **Saída esperada:** `"BANC"`
+
+2. **Entrada:** `s = "abc", t = "xyz"`
+   **Saída esperada:** `""`
+
+3. **Entrada:** `s = "abc", t = "abc"`
+   **Saída esperada:** `"abc"`

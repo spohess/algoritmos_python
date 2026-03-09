@@ -21,3 +21,14 @@ def first_unique_char(s: str) -> str
 - Todos os caracteres repetidos
 - Apenas um caractere
 - Caractere único no final da string
+
+## Exemplos
+
+1. **Entrada:** `s = "abacabad"`
+   **Saída esperada:** `"c"`
+
+2. **Entrada:** `s = "aabbcc"`
+   **Saída esperada:** `""`
+
+3. **Entrada:** `s = "abcdef"`
+   **Saída esperada:** `"a"`
