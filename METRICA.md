@@ -9,6 +9,10 @@ Use uma métrica em 4 eixos para cada desafio:
 - Robustez: solução clara, sem depender de casos especiais escondidos.
 - Qualidade de implementação: código legível, nomes bons, sem duplicação desnecessária.
 
+## Observação importante
+
+Avalie o resultado como algorítimo puro e não utilizando facilidasdes da linguagem, o intuito é treitar a lógica e não a linguagem
+
 ## Score sugerido por desafio: 100 pontos
 
 - 50 pts: corretude
