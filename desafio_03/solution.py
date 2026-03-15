@@ -1,3 +1,5 @@
 def remove_duplicates(nums: list[int]) -> list[int]:
-    """Retorna array sem duplicados preservando a ordem da primeira ocorrência."""
-    raise NotImplementedError
+    result = []
+    for num in nums:
+        for selected in result:
+            if selected
